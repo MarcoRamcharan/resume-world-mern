@@ -1,0 +1,101 @@
+/* choose layout */
+.chooseLayout{
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 20fr;
+}
+
+.chooseLayout-heading{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseLayout-heading h2{
+    font-size: 16px;
+}
+
+.layouts{
+    background-color:  #381e45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout{
+    width: 60%;
+    height: 80vh;
+    background-color: #381e45;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+
+.layout:hover{
+    transform: scale(1.1);
+}
+
+.layout img{
+    width: 100%;
+    height: 92%;
+}
+
+.layout .txt{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.layout .txt:hover{
+    background-color: black;
+}
+
+
+.layout .txt span{
+    color: white;
+}
+
+
+/* end of choose layout */
+
+@media(min-width: 400px){
+    .layout{
+        width: 40%;
+    }
+}
+
+@media(min-width: 600px){
+    .layout{
+        width: 20%;
+        height: 60vh;
+    }
+
+    .layouts{
+        background-color:  #381e45;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .chooseLayout{
+        grid-template-rows: 1fr 8fr;
+    }
+}
+
+@media(min-width: 900px){
+    .layout{
+        width: 17%;
+        height: 70vh;
+    }
+    .chooseLayout-heading h2{
+        font-size: 21px;
+    }
+}

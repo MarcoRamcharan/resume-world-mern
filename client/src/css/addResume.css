@@ -1,0 +1,449 @@
+/* create resume start */
+
+
+.createResume .headings{
+    text-align: center;
+    padding: 10px;
+}
+
+.createResume .headings h2{
+    font-size: 18px;
+}
+
+.createResume .headings p{
+    color: dodgerblue;
+    font-size: 18px;
+}
+
+.createResume .mainHeading {
+    background-color: #27141f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.createResume{
+    background-color: aqua;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.layoutStatus{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+.layoutStatus h2{
+    color: red;
+}
+
+.layoutStatus h5{
+    color: dodgerblue;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.createResume .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.createResume .personalInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.createResume .input-group{
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    /*width: 600px*/
+    width: 100%;
+}
+
+.createResume input, select{
+    width: 65%;
+    /*height: 35px;*/
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+
+#file{
+    font-size: 11px;
+}
+
+.createResume label{
+    width: 35%;
+    background-color: #180e13;
+    /*height: 35px;*/
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+
+
+.createResume .occupation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.createResume .hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.hobbies h6{
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+}
+
+.skills h6{
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+}
+
+.education h6{
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+}
+
+.work-experience h6{
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+
+
+.createResume .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.createResume .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.createResume .work-experience{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.createResume .skillsList{
+    background-color: white;
+    width: 100%;
+    /*w-40%*/
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    color: darkviolet;
+}
+
+.createResume .hobbiesList{
+    background-color: white;
+    color: darkviolet;
+    padding: 10px;
+    width: 100%;
+    /*w-40%*/
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+.createResume .works{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkviolet;
+    border: 2px solid black;
+}
+
+.createResume .works p{
+    font-size: 14px;
+}
+
+.createResume .educations{
+    background-color: white;
+    color: darkviolet;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.createResume .educations p{
+    font-size: 14px;
+}
+
+
+.createResume .about{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.createResume .about h3{
+    font-size: 19px;
+}
+
+.createResume .about p{
+    font-size: 14px;
+}
+
+
+.createResume textarea{
+    width: 100%;
+    height: 50vh;
+    border: none;
+    outline: none;
+    background-color: snow;
+    font-size: 20px;
+    padding: 10px;
+    color: purple;
+    margin: 10px;
+}
+
+.createResume .submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.createResume .submit button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #180e13;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+.createResume .submit .message{
+    /*height: 50px;*/
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.createResume .addToButton{
+    background-color: #381e45;
+    color: white;
+    padding: 3px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delButton{
+    color: red;
+    cursor: pointer;
+}
+
+
+@media(min-width: 1200px){
+    .createResume .input-group{
+        width: 600px;
+    }
+    .createResume .about{
+        width: 600px;
+    }
+    .createResume .submit button{
+        width: 600px;
+        padding: 20px;
+        font-size: 24px;
+    }
+    .createResume input, select{
+        width: 65%;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 19px;
+    }
+    
+
+    #file{
+        font-size: 19px;
+    }
+
+    .createResume label{
+        width: 35%;
+        background-color: #180e13;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        align-items: center;
+        color: white;
+        font-size: 19px;
+    }
+
+    .createResume .works{
+        width: 600px;
+    }
+
+    .createResume .works p{
+        font-size: 18px;
+    }
+
+    .createResume .educations {
+        width: 600px;
+    }
+
+    .createResume .educations p{
+        font-size: 18px;
+    }
+
+    .createResume .skillsList{
+        width: 600px;
+    }
+
+    .createResume .hobbiesList{
+        width: 600px;
+    }
+    .createResume .submit .message{
+        height: 50px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        margin: 10px;
+        font-size: 19px;
+    }
+    .createResume .addToButton{
+        padding: 5px 20px;
+        font-size: 19px;
+    }
+}
+
+@media(min-width: 600px){
+    .createResume .input-group{
+        width: 500px;
+    }
+    .createResume .about{
+        width: 500px;
+    }
+    .createResume .submit button{
+        width: 500px;
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .createResume .submit .message{
+        width: 500px;
+    }
+    .createResume .works{
+        width: 500px;
+    }
+
+    .createResume .educations {
+        width: 500px;
+    }
+
+    .createResume .skillsList{
+        width: 500px;
+    }
+
+    .createResume .hobbiesList{
+        width: 500px;
+    }
+    .createResume .headings h2{
+        font-size: 31px;
+    }
+    
+    .createResume .headings p{
+        font-size: 26px;
+    }
+    
+    .createResume .mainHeading {
+        font-size: 30px;
+    }
+    .layoutStatus h2{
+        font-size: 35px;
+        letter-spacing: 0.2rem;
+    }
+    .layoutStatus h5{
+        font-size: 29px;
+        letter-spacing: 0.2rem;
+    }
+    .createResume .about h3{
+        font-size: 27px;
+    }
+    
+    .createResume .about p{
+        font-size: 20px;
+    }
+}

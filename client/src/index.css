@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 10px;
+    letter-spacing: 0.1rem;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
+.nav h4{
+    font-size: 11px;
+    font-family: 'Peralta', cursive;
+    letter-spacing: 0.2rem;
+}
+
+.navLinks{
+    display: flex;
+}
+
+#navLinks{
+    display: none;
+}
+
+@media(min-width: 600px){
+    #navLinks{
+        display: block;
+    }
+}
+
+@media(max-width: 800px){
+    #navLinks a{
+        font-size: 13px;
+    }
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 17px;
+    font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+.home .about{
+    background-color: azure;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 10px;
+}
+
+.about-content h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.about-content img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.about-content p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    color: #180e13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Peralta', cursive;
+    color: white;
+}
+
+.footer h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.resume-nav h1{
+    font-family: 'Peralta', cursive;
+}
+
+.resume-nav a{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.menu{
+    width: 0px;
+    position: fixed;
+    top: 10vh;
+    width: 100%;
+    right: 0px;
+    height: 0vh;
+    background-color: #1a2421;
+    color: white;
+    transition: all 1s;
+    overflow: hidden;
+    z-index: 400;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .menu p{
+    color: white;
+    margin: 10px;
+    letter-spacing: 0.2rem;
+    font-size: 23px;
+  }
+  
+  .menu a:hover{
+    color: darkorchid;
+  }
+
+@media(min-width: 600px){
+    #menu-icon{
+        display: none; 
+    }
+    .nav h4{
+        font-size: 22px;
+    }
+  }

@@ -1,0 +1,113 @@
+.banner{
+    height: 90vh;
+    position: relative;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #180e13;
+    padding: 20px;
+}
+
+
+
+.banner .heading{
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 22px;
+    font-family: 'Peralta', cursive;
+}
+
+.heading h2{
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    color: silver;
+}
+
+
+.banner .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search h2{
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+}
+
+.search p{
+    font-size: 15px;
+    color: green;
+    letter-spacing: 0.1rem;
+}
+
+.banner .search-input-group{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.banner .search-input-group input{
+    width: 75%;
+    border: none;
+    outline: none;
+}
+
+.search-input-group button{
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.1rem;
+    width: 25%;
+    font-size: 12px;
+}
+
+.box{
+    background-color: #180e13;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box p{
+    font-size: 23px;
+    color: white;
+}
+
+@media(min-width: 600px){
+    .banner .search{
+        width: 70%;
+    }
+}
+
+@media(min-width: 900px){
+    .banner .search{
+        width: 50%;
+    }
+}
+
+@media(min-width: 1200px){
+    .banner .search{
+        width: 30%;
+    }
+    .banner .search-input-group input{
+        height: 40px;
+    }
+
+    .search-input-group button{
+        height: 40px;
+        font-size: 19px;
+    }
+}

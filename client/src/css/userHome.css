@@ -1,0 +1,240 @@
+.userHome{
+    height: 90vh;
+    background-color: #180e13;
+    color: white;
+}
+
+/* userlayout */
+
+
+
+
+.cv{
+    background-color: #180e13;
+    padding: 20px;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+@media(min-width: 600px){
+    .cv{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.cv img{
+    height: 150px;
+    width: 150px;
+}
+
+@media(min-width: 600px){
+    .cv img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+.cv-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-right a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cv-right button{
+    color: white;
+    background-color: peru;
+    width: 80%;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+    border: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cv-right button:hover{
+    background-color: red;
+    color: snow;
+}
+
+.cv-right a:hover{
+    background-color: powderblue;
+    color: white;
+}
+
+@media(min-width: 800px){
+    .cv-right a{
+        width: 40%;
+        height: 50px;
+    }
+    .cv-right button{
+        width: 40%;
+        height: 50px;
+        font-size: 23px;
+    }
+    .cv-right h3{
+        font-size: 35px;
+    }
+    .cv-right p{
+        font-size: 19px;
+    }
+
+}
+
+.confirmDelete{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    font-family: 'Gemunu Libre', sans-serif;
+    color: black;
+    border: 10px solid dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmDelete .confirm-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmDelete .confirm-buttons p{
+    background: dodgerblue;
+    margin: 5px 0px;
+}
+
+.deleteSuccess{
+    position: absolute;
+    background-color: red;
+    padding: 20px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.deleteBad{
+    position: absolute;
+    background-color: yellow;
+    padding: 20px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.removeResume{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+/* no cv dashboard start */
+
+.nocv .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.nocv #img{
+    display: none;
+}
+
+.nocv{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.nocv-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nocv-content .headings{
+    background-color: #27141f;
+    padding: 10px 20px;
+}
+
+.nocv-content h1{
+    font-size: 25px;
+}
+
+.nocv-content h2{
+    font-size: 20px;
+}
+
+.nocv-content img{
+    margin-left: 110px;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+}
+
+.nocv-content h2{
+    margin-bottom: 10px;
+}
+
+.paraSteps{
+    background-color: #27141f;
+    padding:10px 30px;
+    margin-top: -40px;
+}
+
+.paraSteps h2{
+    margin-bottom: 10px;
+}
+
+.nocv-content a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 28px;
+    border: 2px solid white;
+}
+
+/* no cv sdahboard end */

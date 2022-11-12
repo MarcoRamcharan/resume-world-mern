@@ -1,0 +1,39 @@
+.how{
+    background-color: #3a102c;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.how-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.how-content h1{
+    font-size: 25px;
+}
+
+.how-content p{
+    font-size: 15px;
+    margin: 20px 0px; 
+    font-weight: bold;
+    color: silver;
+    letter-spacing: 0.01rem;
+}
+
+
+.how-photo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-photo img{
+    height: 80%;
+    width: 80%;
+}

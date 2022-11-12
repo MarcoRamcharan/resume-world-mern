@@ -1,0 +1,224 @@
+/* create resume start */
+
+.editResume{
+    background-color: aqua;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editResume .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .personalInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .input-group{
+    width: 600px;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+}
+
+.editResume input{
+    width: 70%;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+.editResume label{
+    width: 30%;
+    background-color: #180e13;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+
+
+.editResume .occupation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.editResume .work-experience{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.editResume .skillsList{
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    color: darkviolet;
+}
+
+.editResume .hobbiesList{
+    background-color: white;
+    color: darkviolet;
+    width: 40%;
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+.editResume .works{
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkviolet;
+    border: 2px solid black;
+}
+
+.editResume .educations{
+    background-color: white;
+    color: darkviolet;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.editResume .about{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.editResume .headings{
+    text-align: center;
+    padding: 10px;
+}
+
+.editResume .headings p{
+    color: dodgerblue;
+}
+
+.editResume .mainHeading {
+    background-color: #27141f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.editResume textarea{
+    width: 100%;
+    height: 50vh;
+    border: none;
+    outline: none;
+    background-color: snow;
+    font-size: 20px;
+    padding: 10px;
+    color: purple;
+    margin: 10px;
+}
+
+.editResume .submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+}
+
+.editResume .submit button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #180e13;
+    color: white;
+    font-size: 23px;
+    border: 2px solid white;
+}
+
+.editResume .submit .message{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.editResume button{
+    background-color: #381e45;
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    cursor: pointer;
+}

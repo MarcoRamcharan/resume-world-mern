@@ -1,0 +1,395 @@
+.main3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.main3 .nav{
+    background-color: #180e13;
+    color: white;
+    padding: 10px;
+}
+
+.main3 .info{
+    background-color: #180e13;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.main3 .info h1{
+    margin: 10px;
+}
+
+.main3 .info h2{
+    margin: 10px;
+}
+
+.main3 .info .links{
+    display: flex;
+}
+
+.main3 .info .btn{
+    margin: 20px;
+    background-color: #180e13;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.main3 .info a{
+    margin: 20px;
+    background-color: #180e13;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+@media(min-width: 600px){
+    .main3 .info h1{
+        margin: 10px;
+        font-size: 50px;
+    }
+    
+    .main3 .info h2{
+        margin: 10px;
+        font-size: 25px;
+        letter-spacing: 0.1rem;
+    }
+    
+    .main3 .info .btn{
+        padding: 5px 20px;
+        font-size: 30px;
+    }
+    
+    .main3 .info a{
+        padding: 5px 20px;
+        font-size: 30px;
+    }
+}
+
+
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .about{
+    background-color: #180e13;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main3 .about .about-content{
+    justify-self: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.main3 .about h1{
+    margin-bottom: 70px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+}
+
+.main3 .about p{
+    margin:10px;
+    letter-spacing: 0.1rem;
+}
+
+@media(min-width: 600px){    
+    .main3 .about .about-content{
+        width: 50%;
+    }
+    
+    .main3 .about h1{
+        border: 5px solid white;
+        font-size: 50px;
+    }
+    
+    .main3 .about p{
+        letter-spacing: 0.1rem;
+        font-size: 25px;
+    }
+    
+}
+
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .hobbies{
+    background-color: #180e13;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.main3 .hobbies h1{
+    padding: 5px 30px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+
+
+.main3 .hobbies li{
+    margin: 10px;
+}
+
+@media(min-width: 600px){     
+    .main3 .hobbies h1{
+        padding: 5px 30px;
+        color: white;
+        font-size: 50px;
+        letter-spacing: 0.1rem;
+    }
+    
+    
+    .main3 .hobbies li{
+        margin: 10px;
+        font-size: 30px;
+    }
+}
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .skills{
+    background-color: #180e13;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.main3 .skills h1{
+    margin-bottom: 30px;
+    border: 2px solid white;
+    padding: 5px 30px;
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+}
+
+
+.main3 .skills li{
+    margin: 10px;
+}
+
+@media(min-width: 600px){
+    .main3 .skills h1{
+        border: 5px solid white;
+        font-size: 50px;
+    }
+    
+    
+    .main3 .skills li{
+        margin: 10px;
+        font-size: 30px;
+    }
+}
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .work-experience{
+    background-color: #180e13;
+    padding: 20px;
+}
+
+.main3 .work-experience .we-heading{
+    padding: 5px 25px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+.main3 .work-body{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.main3 .work-body h1{
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+
+.main3 .work-body p{
+    margin: 5px 0px;
+}
+
+
+@media(min-width: 600px){
+    .main3 .work-experience .we-heading{
+        padding: 5px 30px;
+        font-size: 50px;
+    }
+    
+    .main3 .work-body{
+        margin: 20px;
+    }
+    
+    .main3 .work-body h1{
+        font-size: 40px;
+        letter-spacing: 0.1rem;
+    }
+    
+    
+    .main3 .work-body p{
+        margin: 5px 0px;
+    }
+}
+
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .education{
+    background-color: #180e13;
+    padding: 20px;
+}
+
+
+
+.main3 .education h1{
+    padding: 5px 30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+.main3 .education-body{
+    margin:10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.main3 .education-body h3{
+    margin:10px 0px;
+    letter-spacing: 0.1rem;
+}
+
+.main3 .education-body p{
+    margin: 5px 0px;
+}
+
+@media(min-width: 600px){
+    .main3 .education h1{
+        padding: 5px 30px;
+        font-size: 40px;
+    }
+    
+    .main3 .education-body{
+        margin:20px;
+    }
+    
+    .main3 .education-body h3{
+        letter-spacing: 0.1rem;
+    }
+    
+    .main3 .education-body p{
+        margin: 5px 0px;
+    }
+}
+
+/*#########################################################################################################*/
+/*#########################################################################################################*/
+
+.main3 .contact{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main3 .contact-info{
+    padding-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main3 .contact-info h1{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+.main3 .social-info{
+    padding-top: 20px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main3 .social-info h1{
+    font-size: 28px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+
+.main3 .social-info h3{
+    margin: 13px;
+    border: 2px solid white;
+    padding: 5px 13px;
+    border-radius: 28px;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.main3 .group{
+    background-color: white;
+    margin: 10px;
+    color: #180e13;
+}
+
+.main3 .group h2{
+    background-color: #180e13;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main3 .group p{
+    padding: 10px;
+}
+
+@media(min-width: 600px){
+    .main3 .contact{
+        grid-template-columns: 1fr 1fr;
+    }
+}

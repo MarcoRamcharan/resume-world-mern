@@ -1,0 +1,147 @@
+/* signup start */
+
+.signup{
+    height: 90vh;
+    display: grid;
+    grid-template-columns:1fr;
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 20px;
+    background-color: green;
+}
+
+
+.signup-headings{
+    text-align: center;
+}
+
+
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-form h1{
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+.signup-form p{
+    text-align: center;
+    font-weight: bold;
+    color: dodgerblue;
+    letter-spacing: 0.01rem;
+}
+
+.signup form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.signup .input-group{
+    margin: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.signup label{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.signup input{
+    width: 70%;
+    height:30px;
+    border: none;
+    outline: none;
+}
+
+.signup button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.signup .message{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.signup img{
+    height: 80%;
+    width: 120%;
+    margin-left: 20px;
+}
+
+.respic{
+    position: absolute;
+    top: 10vh;
+    left: 30px;
+    height: 500px;
+    width: 50%;
+    background-image:url('../images/R (2).png') ;
+    background-size: 100% 100%;
+    display: none;
+}
+
+/* signup end */
+
+@media(min-width: 600px){
+    .signup form{
+        width: 60%;
+    }
+    .signup label{
+        height: 30px;
+    }
+
+    .signup input{
+        height:30px;
+    }
+}
+
+@media(min-width: 760px){
+    .signup form{
+        width: 50%;
+    }
+    .signup label{
+        font-size: 19px;
+        height: 40px;
+    }
+
+    .signup input{
+        height:40px;
+    }
+
+    .signup button{
+        font-size: 20px;
+        
+    }
+}
+
+@media(min-width: 1200px){
+    .signup form{
+        width: 30%;
+    }
+}

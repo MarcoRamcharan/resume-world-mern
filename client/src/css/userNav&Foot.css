@@ -1,0 +1,149 @@
+/* user styles */
+
+.usernavbar{
+    height: 15vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+}
+
+.usernavbar h5{
+    font-family: 'Peralta', cursive;
+    letter-spacing: 0.2rem;
+}
+
+.usernavbar a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+.usernavbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usernavbar #links{
+    display: none;
+}
+
+@media(min-width: 600px){
+    .usernavbar #links{
+        display: flex;
+    }
+}
+
+
+.usernavbar .links a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.usernavbar .links h3{
+    margin: 10px;
+    font-size: 16px;
+}
+
+.usernavbar .links button{
+    margin: 10px;
+    height: 60%;
+    background-color: #180e13;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.2rem;
+    border: 11px solid black;
+}
+
+.userfooter{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.user-menu{
+    width: 0px;
+    position: fixed;
+    top: 10vh;
+    width: 100%;
+    right: 0px;
+    height: 0vh;
+    background-color: whitesmoke;
+    color: black;
+    transition: all 1s;
+    overflow: hidden;
+    z-index: 400;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .user-menu p{
+    color: black;
+    margin: 10px;
+    letter-spacing: 0.2rem;
+    font-size: 23px;
+  }
+  
+  .user-menu a:hover{
+    color: darkorchid;
+  }
+
+@media(min-width: 600px){
+    #menu-icon-user{
+        display: none; 
+    }
+  }
+
+
+  .user-menu button{
+    margin: 10px;
+    background-color: #180e13;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 7px solid black;
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+@media(min-width: 1200px){
+    .usernavbar{
+        height: 10vh;
+    }
+
+    .usernavbar .links a{
+        font-size: 21px;
+    }
+    
+    .usernavbar .links h3{
+        font-size: 21px;
+    }
+
+    .usernavbar h5{
+        font-size: 22px;
+    }
+}

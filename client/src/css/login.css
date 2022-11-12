@@ -1,0 +1,139 @@
+/* login start */
+
+.login{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #381e45;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+.login-headings{
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form h1{
+    color: white;
+}
+
+.login-form p{
+    text-align: center;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.login .input-group{
+    margin: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.login label{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: darksalmon;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.login button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    cursor: pointer;
+}
+
+.login .message{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
+
+
+.login img{
+    height: 80%;
+    width: 120%;
+    margin-left: 20px;
+}
+
+.respic{
+    position: absolute;
+    top: 10vh;
+    left: 30px;
+    height: 500px;
+    width: 50%;
+    background-image:url('../images/R (2).png') ;
+    background-size: 100% 100%;
+    display: none;
+}
+
+/* login end */
+
+@media(min-width: 600px){
+    .login-form{
+        width: 60%;
+    }
+}
+
+@media(min-width: 1200px){
+    .login-form{
+        width: 30%;
+    }
+    .login label{
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .login input{
+        height: 40px;
+    }
+    
+    .login button{
+        font-size: 21px;
+    }
+    .login .message{
+        font-size: 28px;
+        letter-spacing: 0.1rem;
+    }
+}
